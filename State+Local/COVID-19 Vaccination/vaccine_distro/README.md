@@ -109,6 +109,42 @@ You should have 6 tables:  chain_pharmacy, county_14d, covid19_open_data, jjl_ca
 <br/>
 
 
+## LOOKER DEMO - STEP 1 CONNECTIONS
+First, let's go to our Looker instance and set up a connection to BigQuery.
+
+Under the Looker Admin Menu - You find Database - Connections
+
+Open Connections
+
+Let’s show how a user could create a new connection and let’s highlight the breath of database connections that Looker supports. 
+
+![Looker Create Connection Screenshot](images/image6.png)
+
+![Google Looker](images/image19.png)
+
+Here where you would define a connection to BigQuery. 
+Notice the BigQuery Connector and the broad support for other databases.
+
+![Google Looker](images/image4.png)
+
+
+Looker supports a wide range of SQL database dialects and will continue to improve the feature implementations for existing dialect options as well as add new dialects. Because our modeling layer, LookML, builds on top of the in-database features available, some dialects allow for a more powerful implementation than others. More Info - https://docs.looker.com/setup-and-management/database-config
+
+
+Here are the instructions on how to connect Looker to your BigQuery DataSet: 
+https://docs.looker.com/setup-and-management/database-config/google-bigquery
+
+The general steps for setting up a Google BigQuery Standard SQL or Google BigQuery Legacy SQL connection are:
+
+1. Create a service account with access to the Google project and download the JSON credentials certificate.
+2. Create a temporary dataset for storing persistent derived tables.
+3. Set up the Looker connection to your database.
+4. Test the connection.
+
+
+![Google Looker](images/image13.png)
+
+
 
 
 

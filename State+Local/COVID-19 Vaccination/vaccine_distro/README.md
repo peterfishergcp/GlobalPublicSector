@@ -23,33 +23,45 @@ CSV files can be downloaded here:[CSV Data Files](https://github.com/peterfisher
 
 ![Vaccine Distro Storage Bucket](images/gcs_vaccine_distro_csv.png)
 
+<br/>
+<br/>
 
 Next, we are going to use Google's BigQuery as our database. 
 We are going to create a data set, and then upload the CSV files using the Upload Wizard in BigQuery.
 
+<br/>
+<br/>
 
 Step 1 - Create BigQuery Data Set
 
 ![Vaccine Distro DataSet](images/step1_dataset.png)
 
+<br/>
+<br/>
 
 
 Step 2a - Create BigQuery Tables from CSV
 
 ![Vaccine Distro DataSet](images/step2_createtable.png)
 
+<br/>
+<br/>
 
 
 Step 2b - Load CSV into BigQuery Table
 
 ![Vaccine Distro Loading Data](images/step2_wizard_gs.png)
 
+<br/>
+<br/>
 
 
 Step 2c - Get the location for the CSV file. Where to find the GS URI location from Google Cloud Storage
 
 ![Vaccine Distro GS Location](images/step2_gs_uri.png)
 
+<br/>
+<br/>
 
 
 Step 2d - Create Table Wizard Completed. Note, that table name, auto-schema, and skip header row fields we either marked and entered.
@@ -57,6 +69,8 @@ Step 2d - Create Table Wizard Completed. Note, that table name, auto-schema, and
 
 ![Vaccine Distro Loading Data Final](images/step2_createtable_filledout.png)
 
+<br/>
+<br/>
 
 
 
@@ -64,6 +78,8 @@ Step 2e - Hit Create Table, and a data load job will start. Once the job is comp
 
 ![Vaccine Distro Loading Data Confirmation](images/step2_confirmation_table_create_loaded.png)
 
+<br/>
+<br/>
 
 
 
@@ -71,9 +87,16 @@ Repeat for Step 2a through Step 2e for each csv file.
 
 ![Vaccine Distro Storage Bucket](images/gcs_vaccine_distro_csv.png)
 
+<br/>
+<br/>
 
 
 
 You should have 6 tables:  chain_pharmacy, county_14d, covid19_open_data, jjl_capacity, state_14d, state_fips in your vaccine_distro dataset, similar to the screenshot below.
 
 ![BigQuery Vaccine Distro Data Set](images/bigquery_vaccine_distro_data_set.png)
+
+<br/>
+<br/>
+
+

@@ -100,3 +100,10 @@ You should have 6 tables:  chain_pharmacy, county_14d, covid19_open_data, jjl_ca
 <br/>
 
 
+
+
+
+
+***This is not an officially supported Google product***
+
+

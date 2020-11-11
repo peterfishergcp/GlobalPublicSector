@@ -26,6 +26,23 @@ CSV files can be downloaded here:[CSV Data Files](https://github.com/peterfisher
 Next, we are going to use Google's BigQuery as our database. 
 We are going to create a data set, and then upload the CSV files using the Upload Wizard in BigQuery.
 
+Step 1 - Create BigQuery Data Set
+
+![Vaccine Distro DataSet](images/step1_dataset.png)
+
+Step 2 - Create BigQuery Tables from CSV
+
+![Vaccine Distro DataSet](images/step2_createtable.png)
+
+Step 2 - Load CSV into BigQuery Table
+
+![Vaccine Distro DataSet](images/step2_wizard_gs.ping)
+
+
+
+
+
+![Vaccine Distro Storage Bucket](images/gcs_vaccine_distro_csv.png)
 
 
 

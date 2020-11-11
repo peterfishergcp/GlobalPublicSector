@@ -92,7 +92,7 @@ Step 2e - Hit Create Table, and a data load job will start. Once the job is comp
 
 
 
-Repeat for Step 2a through Step 2e for each csv file.
+Repeat for each CSV file Steps 2a through 2e to load the data into BigQuery.
 
 ![Vaccine Distro Storage Bucket](images/gcs_vaccine_distro_csv.png)
 

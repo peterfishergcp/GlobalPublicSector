@@ -66,7 +66,7 @@ Step 2c - Get the location for the CSV file. Where to find the GS URI location f
 <br/>
 
 
-Step 2d - Create Table Wizard Completed. Note, that table name, auto-schema, and skip header row fields we either marked and entered.
+Step 2d - Create Table Wizard Completed. Note, that table name, auto-detect schema, and skip header row fields were either marked or entered.
 (*Note: It is best if you create the table using the same name as the CSV file wihout the .csv. As example, the chain_pharmacy.csv we would create a table chain_pharmacy. We will repeat this process for each of the csv files)
 
 ![Vaccine Distro Loading Data Final](images/step2_createtable_filledout.png)

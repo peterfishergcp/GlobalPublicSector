@@ -15,15 +15,17 @@ High Level Overview
 9. Create reports and dashboards with your vaccine_distro LookML
 
 
+![Vaccine Distro Overview](images/vaccine_mgt_overview.png)
+
 Once you have your GCP Account, navigate to Google Cloud Storage and create a storage bucket that will hold our CSV data files.
 
-[QuickStart on how to create a storage bucket](https://cloud.google.com/storage/docs/quickstart-console)
+![QuickStart on how to create a storage bucket](https://cloud.google.com/storage/docs/quickstart-console)
 
 <br/>
 <br/>
 Once you have created your storage bucket, you can upload the CSV data files for this demo. The CSVs are small and can be downloaded here:
 
-[CSV Data Files](https://github.com/peterfishergcp/GlobalPublicSector/tree/main/State%2BLocal/COVID-19%20Vaccination/vaccine_distro/csv%20datafiles)
+![CSV Data Files](https://github.com/peterfishergcp/GlobalPublicSector/tree/main/State%2BLocal/COVID-19%20Vaccination/vaccine_distro/csv%20datafiles)
 
 
 <br/>

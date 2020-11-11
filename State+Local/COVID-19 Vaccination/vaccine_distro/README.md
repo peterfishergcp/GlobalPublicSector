@@ -16,12 +16,16 @@ High Level Overview
 
 
 Once you have your GCP Account, navigate to Google Cloud Storage and create a storage bucket that will hold our CSV data files.
-CSV files can be downloaded here:[CSV Data Files](https://github.com/peterfishergcp/GlobalPublicSector/tree/main/State%2BLocal/COVID-19%20Vaccination/vaccine_distro/csv%20datafiles)
 
 [QuickStart on how to create a storage bucket](https://cloud.google.com/storage/docs/quickstart-console)
 
 <br/>
 <br/>
+Once you have created your storage bucket, you can upload the CSV data files for this demo. The CSVs are small and can be downloaded here:[CSV Data Files](https://github.com/peterfishergcp/GlobalPublicSector/tree/main/State%2BLocal/COVID-19%20Vaccination/vaccine_distro/csv%20datafiles)
+
+
+<br/>
+You can load the 6 csv's files using the upload files button. Here is a screenshot of what your bucket should look like after uploading the csv files.
 
 ![Vaccine Distro Storage Bucket](images/gcs_vaccine_distro_csv.png)
 

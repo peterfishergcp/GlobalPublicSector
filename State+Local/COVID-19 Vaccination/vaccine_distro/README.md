@@ -36,7 +36,7 @@ Step 2 - Create BigQuery Tables from CSV
 
 Step 2 - Load CSV into BigQuery Table
 
-![Vaccine Distro DataSet](images/step2_wizard_gs.ping)
+![Vaccine Distro DataSet](images/step2_wizard_gs.png)
 
 
 
